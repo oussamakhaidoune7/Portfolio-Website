@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Portfolio Website</title>
+    <link rel="shortcut icon" type="image" href="Images/home-image.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <!--Section header start-->
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Developer <span class="text-primary">Oussama</span></h4>
+                </a>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li>
+                            <a href="#home" class="nav-link" data-scroll-nav="0">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link" data-scroll-nav="1">About</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="nav-link" data-scroll-nav="2">Services</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link" data-scroll-nav="3">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="nav-link" data-scroll-nav="4">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ms-auto d-none d-lg-block">
+                    <a class="colared-btn" href="#contact" data-scroll-nav="5">Contact</a>
+                </div>
+
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!--Section header end-->
+
+    <!--Main start-->
+    <main>
+        <!--Section home start-->
+        <section class="home-section bg-gray" id="home" data-scroll-index="0">
+            <div class="container">
+                <div class="anim-elements">
+                    <div class="anim-element"><i class="bx bxl-html5"></i></div>
+                    <div class="anim-element"><i class='bx bxl-css3'></i></div>
+                    <div class="anim-element"><i class='bx bxl-javascript'></i></div>
+                    <div class="anim-element"><i class='bx bxl-bootstrap'></i></div>
+                    <div class="anim-element"><i class='bx bxl-react'></i></div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Welcome to my portfolio website !</h6>
+                            <h1>I'm <span id="type-it"></span></h1>
+                            <p>my passion lies in designing intuitive & beautiful user interfaces, ensuring an exceptional user experience.</p>
+                            <a href="#about" class="colared-btn mt-1">
+                                About me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="Images/home-image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section home end-->
+
+        <!--Section about start-->
+        <section class="section" id="about" data-scroll-index="1">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="Images/image-about.gif" alt="">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="about-text">
+                            <h3 class="h1 mb-3 text-dark fw-semibold">
+                                I'm Freelancer whit 2+ years of experience.
+                            </h3>
+                            <p>
+                                I specialize in transforming ideas into exceptional digital experiences using the latest technologies and design tools. My focus is on creating visually appealing and user-friendly interfaces with HTML, CSS, and JavaScript, as well as frameworks like Bootstrap and React js.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section about end-->
+
+        <!--Section services start-->
+        <section class="section bg-gray" id="services" data-scroll-index="2">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>My Services</h3>
+                </div>
+                <div class="row gy-4 ">
+                    <div class="col-md-6">
+                        <div class="feature-box bg-1">
+                            <div class="icon"><i class='bx bx-brush'></i></div>
+                            <div class="content">
+                                <h5>UI Design & Development</h5>
+                                <p>
+                                    Building attractive and user-friendly interfaces using HTML, CSS, and JavaScript.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-2">
+                            <div class="icon"><i class='bx bx-devices'></i></div>
+                            <div class="content">
+                                <h5>Responsive Web Development</h5>
+                                <p>
+                                    Ensuring compatibility across all devices and screen sizes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-3">
+                            <div class="icon"><i class='bx bxs-bar-chart-alt-2'></i></div>
+                            <div class="content">
+                                <h5>Performance Optimization</h5>
+                                <p>
+                                    Enhancing website speed and performance for a smooth user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-4">
+                            <div class="icon"><i class='bx bx-globe'></i></div>
+                            <div class="content">
+                                <h5>Search Engine Optimization</h5>
+                                <p>
+                                    Improving website structures to increase their visibility in search engine results.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-5">
+                            <div class="icon"><i class='bx bx-error-alt'></i></div>
+                            <div class="content">
+                                <h5>Testing and Debugging</h5>
+                                <p>
+                                    Ensuring websites are error-free and function perfectly through thorough testing and debugging
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-6">
+                            <div class="icon"><i class='bx bx-duplicate'></i></div>
+                            <div class="content">
+                                <h5>Website Updates</h5>
+                                <p>
+                                    Updating and modernizing old websites to keep up with the latest technologies and trends.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section services end-->
+
+        <!--Section skills start-->
+        <section class="section" id="skills" data-scroll-index="3">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="section-heading text-start">
+                            <h3>My Skills</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row gy-3">
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-3">
+                                        <div class="icon">
+                                            <i class='bx bxl-html5'></i>
+                                        </div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon">
+                                            <i class='bx bxl-css3'></i>
+                                        </div>
+                                        <h6>CSS</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-4">
+                                        <div class="icon">
+                                            <i class='bx bxl-javascript'></i>
+                                        </div>
+                                        <h6>JAVASCRIPT</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-9">
+                                        <div class="icon">
+                                            <i class='bx bxl-bootstrap'></i>
+                                        </div>
+                                        <h6>BOOTSTRAP</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-6">
+                                        <div class="icon">
+                                            <i class='bx bxl-react'></i>
+                                        </div>
+                                        <h6>REACT JS</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-7">
+                                        <div class="icon">
+                                            <i class='bx bxl-python'></i>
+                                        </div>
+                                        <h6>PYTHON</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-10">
+                                        <div class="icon">
+                                            <i class='bx bxs-data'></i>
+                                        </div>
+                                        <h6>SQL-SERVER</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-5">
+                                        <div class="icon">
+                                            <i class='bx bxl-git'></i>
+                                        </div>
+                                        <h6>GIT</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-6">
+                                    <div class="feature-box feature-box-small bg-8">
+                                        <div class="icon">
+                                            <i class='bx bxl-github'></i>
+                                        </div>
+                                        <h6>GITHUB</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="Images/skills-image.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section skills end-->
+
+        <!--Section portfolio start-->
+        <section class="section bg-gray" id="portfolio" data-scroll-index="4">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>My Projects</h3>
+                </div>
+                <div class="portfolio-box">
+                    <div class="row gx-3 gy-4 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="Images/allmand-schule-website.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Allmand schule website</span>
+                                <h4>Learn German with Ease</h4>
+                                <p>
+                                    I developed an innovative website for a German language learning center, offering a seamless and unique educational experience for students at all levels, featuring a modern and user-friendly interface.  
+                                </p>
+                                <a href="https://oussamakhaidoune7.github.io/Allmand-schule/" target="_blank" class="colared-btn mt-1">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="Images/onlineeducation-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Education Online</span>
+                                <h4>Learn Programming from Home.</h4>
+                                <p>
+                                    Explore the essence of programming from home with comprehensive courses suitable for all levels, featuring interactive lessons and practical projects.  
+                                </p>
+                                <a href="https://oussamakhaidoune7.github.io/Education--Online/" target="_blank" class="colared-btn mt-1">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="Images/fitness-website-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Fitness Website</span>
+                                <h4>Discover Fitness.</h4>
+                                <p>
+                                    Explore the world of fitness, where we provide you with the latest workouts and tips to achieve your fitness goals. 
+                                </p>
+                                <a href="https://oussamakhaidoune7.github.io/Alpha-fitness-Website/indeex.html" target="_blank" class="colared-btn mt-1">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-img">
+                                <img src="Images/pharmacy-application-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portfolio-text">
+                                <span>Pharmacy Application</span>
+                                <h4>Pharmacy App for Orders and Inventory Management.</h4>
+                                <p>
+                                    An application that facilitates efficient order and inventory management for pharmacies.  
+                                </p>
+                                <a href="https://oussamakhaidoune7.github.io/Pharmacy_application/iindex.html" target="_blank" class="colared-btn mt-1">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section portfolio end-->
+
+        <!--Section tesimonial start-->
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Tesimonials</h3>
+                </div>
+                <div>
+                    <div class="feature-box mb-4">
+                        <div class="img">
+                            <img src="Images/tesimonial-avatar.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb-3">
+                                We are deeply grateful to Mr. Oussama for his exceptional work in designing and creating our new website. His efforts have resulted in a site that aligns perfectly with our vision and enhances communication with our students and visitors. We truly appreciate his professionalism and dedication throughout the project. 😊
+                            </p>
+                            <h6 class="mb-0 text-dark fw-semibold">Mustafa Ait lhouss</h6>
+                            <small>German teacher</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section tesimonial end-->
+
+        <!--Section Contact start-->
+        <section class="section bg-dark" id="contact" data-scroll-index="5">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="contact-form">
+                            <h2 class="text-dark">Get in touch</h2>
+                            <p class="lead">You can easily contact me via:</p>
+                            <form action="#">
+                                <div class="row-gy-4 gy-3">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Name</label>
+                                            <input type="text" class="form-control" name="name" placeholder="Full Name" id="name" autocomplete="off" required>
+                                            <div class="error-text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" class="form-control" name="email" placeholder="Your Email" id="email" autocomplete="off" required>
+                                            <div class="error-text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Subject</label>
+                                            <input type="text" class="form-control" name="subject" placeholder="Subject" id="subject" autocomplete="off" required>
+                                            <div class="error-text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label class="form-label">Message</label>
+                                            <textarea name="message" rows="3" class="form-control" placeholder="Your Message" id="message" autocomplete="off"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="colared-btn mt-2" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ms-auto col-xl-4">
+                        <div class="pb-5 d-none d-md-block">
+                            <img src="Images/image3.png" class="w-100" alt="">
+                        </div>
+                        <ul class="contact-infos">
+                            <li>
+                                <div class="icon bg-3">
+                                    <i class='bx bx-phone'></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Phone:</h5>
+                                    <p>+212 774 13 11 69</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-6">
+                                    <i class='bx bx-envelope'></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Email:</h5>
+                                    <p>oussamakhaidoune74@gmail.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon bg-2">
+                                    <i class='bx bx-map'></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5>Adresse:</h5>
+                                    <p>Ait Thami Alley 08, Number 21, 23200, Fquih Ben Salah, Morocco</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section Contact end-->
+
+        <!--Section footer start-->
+        <section class="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 py-2">
+                        <div class="nav justify-content-center justify-content-md-start">
+                            <a href="https://github.com/oussamakhaidoune7" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://www.instagram.com/developer__oussama?igsh=OWgyczBibTJjM3Vq" target="_blank"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.linkedin.com/in/oussama-khaidoune-629075288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-2 text-center text-md-end">
+                        <p class="m-0">&copy; 2024 . All rights reserved | Developed by Oussama</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section footer end-->
+
+    </main>
+    <!--Main end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="scrollIt.js" type="text/javascript"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Js/script.js"></script>
+
+</body>
+
+</html>
