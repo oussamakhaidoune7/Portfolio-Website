@@ -13,7 +13,7 @@ $(window).on("scroll", function () {
 $(document).ready(function () {
     //Typed animation
     new Typed('#type-it', {
-        strings: ['Oussama', 'Frontend Developer', 'UI Designer'],
+        strings: ['Oussama', 'Web Developer'],
         typeSpeed: 50,
         backSpeed: 70,
         backDelay: 1000,
